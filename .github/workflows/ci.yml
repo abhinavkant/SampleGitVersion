@@ -12,10 +12,10 @@ on:
     paths:
       - 'src/**'
 
-env:
-  NAME: blog-semver
-  DEPLOY_BRANCH: 'refs/heads/develop'
-  NODE_VERSION: "18.15.0"
+# env:
+#   NAME: blog-semver
+#   DEPLOY_BRANCH: 'refs/heads/develop'
+#   NODE_VERSION: "18.15.0"
 
 jobs:
   build:
