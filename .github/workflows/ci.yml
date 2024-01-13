@@ -13,9 +13,9 @@ on:
       - 'src/**'
 
 env:
-  NAME: samplegitversion
+  NAME: blog-semver
   DEPLOY_BRANCH: 'refs/heads/develop'
-  NODE_VERSION: "18.15.0"
+  NODE_VERSION: "14.17.1"
 
 jobs:
   build:
